@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    	<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>ad_platform.Application</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ad-platform.Core\ad-platform.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ardalis.Result" Version="10.1.0" />
+      <PackageReference Include="MediatR" Version="13.0.0" />
+      <PackageReference Include="NimblePros.SharedKernel" Version="2.1.1" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/akhtem/projects/ad-platform/ad-platform.WebApi/ad-platform.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj",
+        "projectName": "ad-platform.Application",
+        "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj",
+        "packagesPath": "/home/akhtem/.nuget/packages/",
+        "outputPath": "/home/akhtem/projects/ad-platform/ad-platform.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akhtem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj": {
+                "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "NimblePros.SharedKernel": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj",
+        "projectName": "ad-platform.Core",
+        "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj",
+        "packagesPath": "/home/akhtem/.nuget/packages/",
+        "outputPath": "/home/akhtem/projects/ad-platform/ad-platform.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akhtem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/ad-platform.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/ad-platform.Infrastructure.csproj",
+        "projectName": "ad-platform.Infrastructure",
+        "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/ad-platform.Infrastructure.csproj",
+        "packagesPath": "/home/akhtem/.nuget/packages/",
+        "outputPath": "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akhtem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj": {
+                "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj"
+              },
+              "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj": {
+                "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Core/ad-platform.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akhtem/projects/ad-platform/ad-platform.WebApi/ad-platform.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akhtem/projects/ad-platform/ad-platform.WebApi/ad-platform.WebApi.csproj",
+        "projectName": "ad-platform.WebApi",
+        "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.WebApi/ad-platform.WebApi.csproj",
+        "packagesPath": "/home/akhtem/.nuget/packages/",
+        "outputPath": "/home/akhtem/projects/ad-platform/ad-platform.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akhtem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj": {
+                "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Application/ad-platform.Application.csproj"
+              },
+              "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/ad-platform.Infrastructure.csproj": {
+                "projectPath": "/home/akhtem/projects/ad-platform/ad-platform.Infrastructure/ad-platform.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.Result.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "FastEndpoints.Swagger": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

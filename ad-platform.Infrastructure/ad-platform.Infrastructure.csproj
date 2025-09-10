@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    	<TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>ad_platform.Infrastructure</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ad-platform.Application\ad-platform.Application.csproj" />
+      <ProjectReference Include="..\ad-platform.Core\ad-platform.Core.csproj" />
+    </ItemGroup>
+
+</Project>

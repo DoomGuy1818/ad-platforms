@@ -1,0 +1,9 @@
+﻿services:
+  ad-platform.webapi:
+    build:
+      context: .
+      dockerfile: ad-platform.WebApi/Dockerfile
+    volumes:
+      - ${FILEPATH}:/app/files/text.txt
+    ports:
+      - 8080:8080
