@@ -4,6 +4,6 @@
       context: .
       dockerfile: ad-platform.WebApi/Dockerfile
     volumes:
-      - ${FILEPATH}:/app/files/text.txt
+      - ${FILEPATH}:${FILE_PATH_IN_DOCKER}
     ports:
       - 8080:8080
